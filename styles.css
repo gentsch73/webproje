@@ -1,0 +1,39 @@
+.foto-container {
+    max-width: 50%;
+    margin: 2rem auto;
+}
+
+.carousel-item {
+    height: 600px;          /* istediğin sabit yükseklik */
+}
+
+.carousel-item img {
+    width: 100%;            /* yatayda tam doldur */
+    height: 100%;           /* dikeyde tam doldur */
+    object-fit: cover;      /* taşma varsa kırparak doldur */
+}
+
+.img-text1 {
+    color: indigo;
+    font-weight: bold; 
+}
+
+.img-text2 {
+    color: blanchedalmond;
+    font-weight: bold; 
+}
+
+.img-text3 {
+    color: navy;
+    font-weight: bold; 
+}
+
+.sehrim-text-container{
+    padding: 2rem;  
+    margin: 0 1rem; 
+    
+}
+
+.sehrim-text-container p {
+    font-size: large;
+}
