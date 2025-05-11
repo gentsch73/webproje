@@ -37,3 +37,12 @@
 .sehrim-text-container p {
     font-size: large;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.cv-menu {
+    position: sticky; 
+    z-index:1000;
+}
