@@ -48,19 +48,15 @@
       <!-- Lisans -->
       <article>
         <h3>Bilgisayar Mühendisliği (BSc)</h3>
-        <p><strong>Karadeniz Teknik Üniversitesi</strong></p>
-        <time datetime="2023-09">Eylül 2023</time> –
-        <time datetime="2027-06">Haziran 2027</time>
-        <p>GPA : 3.45/4 &nbsp;|&nbsp; İlgili dersler: Veri Yapıları, Gömülü Sistemler</p>
+        <p><strong>Sakarya Universitesi</strong></p>
+        <p>2. Donem</p>
+        <p>GPA : 3.60/4</p>
       </article>
 
       <!-- Lise -->
       <article>
-        <h3>Fen Lisesi</h3>
-        <p><strong>Samsun Fen Lisesi</strong></p>
-        <time datetime="2019-09">2019</time> 
-        <time datetime="2023-06">2023</time>
-        <p> Mezuniyet Derecesi : 90/100</p>
+        <p><strong>Maltepe Kultur Lisesi</strong></p>
+        <p>2014 - 2018</p>
       </article>
     </section>
 
@@ -69,10 +65,10 @@
       <h2 id="title-exp">Deneyim</h2>
 
       <article>
-        <h3>Yazılım Stajyeri &mdash; <span>XYZ Teknoloji</span></h3>
+        <h3>Yazılım Gelistirici &mdash; <span>Saerotech</span></h3>
         <ul class="list-unstyled">
-          <li>ROS 2 tabanlı otonom drone yazılımı geliştirdim.</li>
-          <li>C++ kod incelemesi ve birim testleri yazdım.</li>
+          <li>ROS 2 tabanlı otonom drone yazılımı geliştiriyorum.</li>
+          <li>C++ ile OpenCV uzerinden Goruntu Isleme uzerine calisiyorum.</li>
         </ul>
       </article>
     </section>
@@ -91,9 +87,9 @@
     <aside id="contact">
       <h2>İletişim</h2>
       <address>
-        E‑posta : <a href="mailto:berkay@example.com">berkay@example.com</a><br />
-        Telefon : +90 555 123 45 67<br />
-        Konum  : Trabzon / Türkiye
+        E‑posta : <a href="mailto:berkay@example.com">berkaygench@gmail.com</a><br />
+        Telefon : +90 546 219 74 73<br />
+        Konum  : Sakarya / Türkiye
       </address>
     </aside>
 

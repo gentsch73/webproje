@@ -16,22 +16,25 @@
 
   <link rel="stylesheet" href="assets/css/styles.css">
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-
-  <!-- KENDİ Doğrulama Dosyan -->
-  <script src="iletisim.js"></script>
-
   <title>Ana Sayfa</title>
 </head>
 <body>
 
   <?php include 'navbar.php'; ?>
-<div class="p-4">
-    <h1 class="mb-4">İletişim Formu</h1>
 
-  <!-- ==== FORM ==== -->
-  <form id="contactForm" novalidate>
-    <div class="row gy-3"><!-- Bootstrap satır -->
+  <!-- ==== İLETİŞİM FORMU ==== -->
+<div class="p-4">
+
+  <!-- Başlık -->
+  <h1 class="mb-4">İletişim Formu</h1>
+
+  <!-- AngularJS yöneticisi -->
+  <form id="contactForm"
+        novalidate
+        ng-app="contactApp"
+        ng-controller="FormCtrl as vm">
+
+    <div class="row gy-3"><!-- satır -->
 
       <!-- Ad Soyad -->
       <div class="col-md-6">
@@ -61,7 +64,7 @@
         <small class="error"></small>
       </div>
 
-      <!-- Şehir (select) -->
+      <!-- Şehir -->
       <div class="col-md-6">
         <label class="form-label">Şehir</label>
         <select name="city" class="form-select">
@@ -71,20 +74,20 @@
         <small class="error"></small>
       </div>
 
-      <!-- Renk (color) -->
+      <!-- Renk -->
       <div class="col-md-3">
         <label class="form-label">Favori Renk</label>
         <input name="color" type="color" class="form-control form-control-color" />
       </div>
 
-      <!-- CV (file) -->
+      <!-- CV -->
       <div class="col-md-9">
-        <label class="form-label">CV Yükle (PDF)</label>
+        <label class="form-label">CV Yükle (PDF)</label>
         <input name="cv" type="file" accept=".pdf" class="form-control" />
         <small class="error"></small>
       </div>
 
-      <!-- Cinsiyet (radio) -->
+      <!-- Cinsiyet -->
       <div class="col-12">
         <label class="form-label d-block">Cinsiyet</label>
         <div class="form-check form-check-inline">
@@ -98,7 +101,7 @@
         <small class="error d-block"></small>
       </div>
 
-      <!-- İlgi Alanları (checkbox) -->
+      <!-- İlgi Alanları -->
       <div class="col-12">
         <label class="form-label d-block">İlgi Alanları</label>
         <div class="form-check form-check-inline">
@@ -123,13 +126,22 @@
         <small class="error"></small>
       </div>
 
-    <div class="mt-3">
-      <button id="btnVue" type="button" class="btn btn-success">Gönder (Vue)</button>
-    </div>
+      <!-- GÖNDER -->
+      <div class="mt-3">
+        <button id="btnNg" type="button" class="btn btn-success"
+                ng-click="vm.validate()">Gönder (AngularJS)</button>
+      </div>
 
-    </div>
+    </div><!-- /row -->
   </form>
 </div>
+
+<!-- === AngularJS CDN + doğrulama betiği === -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+<script src="iletisim.js"></script>
+<style>.error{color:#dc3545;font-size:.875rem}</style>
+
+
 
 </body>
 </html>

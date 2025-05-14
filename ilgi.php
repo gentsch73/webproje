@@ -22,6 +22,16 @@
 
   <?php include 'navbar.php'; ?>
 
+    <main class="container py-5">
+    <h1 class="mb-4 text-center">Favori Konu → Sinema</h1>
+    <p class="text-center mb-5">TMDB’de şu an <strong>en popüler</strong> filmler</p>
+
+    <!-- Filmlerin geleceği alan -->
+    <div id="movieRow" class="row gy-4"></div>
+  </main>
+
+  <script src="filmler.js" defer></script>
+
 
 
 </body>
