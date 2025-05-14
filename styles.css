@@ -1,3 +1,18 @@
+.navbar {
+    padding-top: 1.25rem;    /* üstten 20px */
+    padding-bottom: 1.25rem; /* alttan 20px */
+}
+
+.navbar .nav-link {
+padding: 0.75rem 1rem;   
+font-size: 2rem;     
+margin-right: 4rem;
+}
+  
+.navbar .navbar-brand {
+font-size: 1.5rem;       
+}
+
 .foto-container {
     max-width: 50%;
     margin: 2rem auto;
@@ -42,11 +57,34 @@ ul {
     list-style-type: none;
 }
 
-.cv-menu {
-    position: sticky; 
-    z-index:1000;
-}
-
 .error { 
     color:#dc3545; font-size:0.875rem; 
 }
+
+.cv-menu{
+  position: fixed;          /* akıştan çık + sabitlen */
+  top: var(--nav-h);         /* navbarın hemen altı */
+  left: 1rem;               /* veya sağa almak istersen right:1rem */
+  z-index: 1050;            /* her şeyin üstünde */
+
+  /* görünüm */
+  background:#fff;
+  border-radius:.5rem;
+  box-shadow:0 4px 12px rgba(0,0,0,.12);
+  padding:.75rem 1rem;
+  max-width: 180px;
+}
+
+:root{
+  /* Navbar yüksekliği – eğer nav yüksekliğin farklıysa değiştir */
+  --nav-h: 15rem;           /* ≈ 72 px */
+}
+
+.cv-menu a{
+  display:block;
+  color:#333;
+  text-decoration:none;
+  padding:.25rem 0;
+}
+
+.cv-menu a:hover{color:#0d6efd;}

@@ -10,11 +10,11 @@
           $username = $_SESSION['user'];
           ?>
 
-          <a class="navbar-brand" href="#">Hosgeldin, <?= $username ?> </a>
+          <a class="navbar-brand" href="#">Hosgeldin, <br><?= $username ?> </a>
 
           <?php else: ?>
 
-            <a class="navbar-brand" href="#">Hosgeldin, Misafir </a>
+            <a class="navbar-brand" href="#">Hosgeldin, <br>Misafir </a>
 
           <?php endif; ?>
 
