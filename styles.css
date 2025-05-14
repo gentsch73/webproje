@@ -46,3 +46,7 @@ ul {
     position: sticky; 
     z-index:1000;
 }
+
+.error { 
+    color:#dc3545; font-size:0.875rem; 
+}

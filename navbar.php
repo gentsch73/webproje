@@ -36,6 +36,10 @@
                 <a class="nav-link" href="ilgi.php">Ilgi Alanlarim</a>
               </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="iletisim.php">Iletisim</a>
+              </li>
+
 
 
               <?php if (isset($_SESSION['user'])): ?>
