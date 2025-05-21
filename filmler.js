@@ -34,32 +34,6 @@ function createCard(f) {
            class="btn btn-sm btn-primary mt-auto">Detay ›</a>
       </div>
     </div>`;
-
-      const card = `
-    <div class="card h-100 shadow-sm">
-      <img src="${IMG_ROOT + f.poster_path}" class="card-img-top" alt="${f.title}">
-      <div class="card-body d-flex flex-column">
-        <h5 class="card-title">${f.title}</h5>
-        <p class="card-text small text-muted flex-grow-1">
-          Çıkış: ${f.release_date}<br> Puan: ${f.vote_average}
-        </p>
-        <a href="https://www.themoviedb.org/movie/${f.id}" target="_blank"
-           class="btn btn-sm btn-primary mt-auto">Detay ›</a>
-      </div>
-    </div>`;
-
-      const card = `
-    <div class="card h-100 shadow-sm">
-      <img src="${IMG_ROOT + f.poster_path}" class="card-img-top" alt="${f.title}">
-      <div class="card-body d-flex flex-column">
-        <h5 class="card-title">${f.title}</h5>
-        <p class="card-text small text-muted flex-grow-1">
-          Çıkış: ${f.release_date}<br> Puan: ${f.vote_average}
-        </p>
-        <a href="https://www.themoviedb.org/movie/${f.id}" target="_blank"
-           class="btn btn-sm btn-primary mt-auto">Detay ›</a>
-      </div>
-    </div>`;
   col.innerHTML = card;
   return col;
 }
