@@ -85,6 +85,42 @@
         <input name="cv" type="file" accept=".pdf" class="form-control" />
         <small class="error"></small>
       </div>
+            <!-- CV -->
+      <div class="col-md-9">
+        <label class="form-label">CV Yükle (PDF)</label>
+        <input name="cv" type="file" accept=".pdf" class="form-control" />
+        <small class="error"></small>
+      </div>
+            <!-- CV -->
+      <div class="col-md-9">
+        <label class="form-label">CV Yükle (PDF)</label>
+        <input name="cv" type="file" accept=".pdf" class="form-control" />
+        <small class="error"></small>
+      </div>
+            <!-- CV -->
+      <div class="col-md-9">
+        <label class="form-label">CV Yükle (PDF)</label>
+        <input name="cv" type="file" accept=".pdf" class="form-control" />
+        <small class="error"></small>
+      </div>
+            <!-- CV -->
+      <div class="col-md-9">
+        <label class="form-label">CV Yükle (PDF)</label>
+        <input name="cv" type="file" accept=".pdf" class="form-control" />
+        <small class="error"></small>
+      </div>
+            <!-- CV -->
+      <div class="col-md-9">
+        <label class="form-label">CV Yükle (PDF)</label>
+        <input name="cv" type="file" accept=".pdf" class="form-control" />
+        <small class="error"></small>
+      </div>
+            <!-- CV -->
+      <div class="col-md-9">
+        <label class="form-label">CV Yükle (PDF)</label>
+        <input name="cv" type="file" accept=".pdf" class="form-control" />
+        <small class="error"></small>
+      </div>
 
       <!-- Cinsiyet -->
       <div class="col-12">

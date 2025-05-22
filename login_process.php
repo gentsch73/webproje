@@ -8,27 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   exit;
 }
 
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  header('Location: login.php');
-  exit;
-}
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  header('Location: login.php');
-  exit;
-}
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  header('Location: login.php');
-  exit;
-}
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  header('Location: login.php');
-  exit;
-}
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  header('Location: login.php');
-  exit;
-}
-
 // Değerleri al
 $username = trim($_POST['username']  ?? '');
 $password = trim($_POST['password']  ?? '');
