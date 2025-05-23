@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Form Özeti</title>
+</head>
+<body>
+  <main class="container-sm py-4">
+    <h1 class="mb-4">Gönderdiğiniz Bilgiler</h1>
+
+    <!-- tablo / kart -->
+    <div id="summary" class="card p-3 shadow-sm"></div>
+
+    <a href="iletisim.php" class="btn btn-secondary mt-3">Forma Geri Dön</a>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const wrap = document.getElementById('summary');
+      const saved = localStorage.getItem('contactData');
+      if (!saved) {
+        wrap.innerHTML = '<p class="text-danger">Gösterilecek veri bulunamadı!</p>';
+        return;
+      }
+      const data = JSON.parse(saved);
+
+      /* tablo oluştur */
+      let html = '<table class="table table-bordered mb-0"><tbody>';
+      Object.entries(data).forEach(([k, v]) => {
+        // dizi ise virgülle birleştir
+        const val = Array.isArray(v) ? v.join(', ') : v;
+        html += `<tr><th class="w-25 text-capitalize">${k}</th><td>${val}</td></tr>`;
+      });
+      html += '</tbody></table>';
+      wrap.innerHTML = html;
+
+      // İstersen veriyi temizle – bir sonraki ziyaret için
+      // localStorage.removeItem('contactData');
+    });
+  </script>
+</body>
+</html>

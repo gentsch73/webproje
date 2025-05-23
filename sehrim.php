@@ -19,18 +19,31 @@
 </head>
 <body>
   <?php include 'navbar.php'; ?>
+  <section class="container-sm mb-5">
+  <h2 class="text-center">Artvin</h2>
+  <p>Karadeniz Bölgesi'nin doğusunda yer alan Artvin, doğal güzellikleri, zengin kültürü ve tarihi mirasıyla öne çıkan eşsiz bir şehirdir. Gür ormanları, yemyeşil yaylaları, şelaleleri ve derin vadileri ile doğa turizmi açısından oldukça popülerdir. Hem Karadeniz'in serin havasını soluyabileceğiniz hem de Türkiye’nin en güzel trekking rotalarına sahip bu şehirde, geleneksel Karadeniz mimarisini ve zengin yerel mutfağı deneyimleyebilirsiniz. Aynı zamanda Artvin, boğa güreşleri, yayla festivalleri ve çeşitli kültürel etkinlikleriyle ünlüdür.</p>
+  <h2 class="text-center"><a href="mirasimiz.php">Mirasimiz</a></h2>
+</section>
 
-  <div class="sehrim-text-container">
-    
-    <p class="text-center mt-4">
-    Tarihi Ortacalar Çifte Köprü, Arhavi’de, Mençuna Şelalesi yolu üzerinde giderken Arılı ile Küçükköy yol ayrımında karşınıza çıkan, birbirine tıpatıp benzeyen sivri kemerli iki köprü. Her ne kadar 18. yüzyıl tarihli olarak resmi kayıtlara geçmiş olsa da aslında en az bir 600 yıllık oldukları düşünülüyor. Tamamen kesme taştan yapılmış iki köprünün toplam uzunluğu yaklaşık 80 metre. Harç olarak da kireç ve yumurta akı kullanılmış. Bunca depreme, rüzgara, yağmura rağmen dimdik ayakta kalabilmesi gerçekten de üstün bir mimarinin ürünü olması. Bu arada bu köprülerin hemen yanına birer köprü yapmışız. Bu açıdan çekilince görünmüyorlar ama muhtemelen sadece bu açıdan. Oraya gittiğinizde gördüğünüz manzara kesinlikle bu fotoğraf karesi gibi güzel değil.<br><br>Karadeniz’in bizce en fantastik doğa olayı bulut denizleri. Bu muhteşem manzaraya şahit olmak için göğün 9. katındaki Sırt Yayla’ya çıktık. Sırt Yayla öyle Gito yada Pokut gibi popüler bir yer değil. Hiçbir tesis yok. Burada pofidik bulutlar yatağımız, yıldızlar yorganımız ama bulut denizinin hangi seviyede olacağı biraz da bulutların keyfine ve sizin şansınıza kalmış.
+<section class="container-sm mb-5" id="cifte">
+  <h2>Çifte Köprü</h2>
+  <p>Artvin'in Arhavi ilçesinde bulunan Çifte Köprü, birbirine paralel inşa edilmiş iki tarihi taş köprüden oluşur. 18. yüzyılda Osmanlı döneminde inşa edilen bu köprüler, zarif kemer yapılarıyla bölgenin tarihi ve kültürel mirasını yansıtır. Köprüler, Kamilet Vadisi'nin eşsiz güzellikteki manzarasını ziyaretçilere sunarken, doğa fotoğrafçıları ve doğaseverler için unutulmaz anlar yaşatır. Ayrıca, bölgedeki yürüyüş parkurları ve dinlenme alanları sayesinde ziyaretçiler doğanın tadını çıkarabilir.</p>
+</section>
 
-  Burada kamp yapmak isteyeceksiniz ama geceleri sık sık çatı uçuran rüzgarlardan çıkıyormuş. Bizzat test ettik ve gece köylülerin evlerine sığındık.
+<section class="container-sm mb-5" id="dere">
+  <h2>Cehennem Deresi Kanyonu</h2>
+  <p>Ardanuç ilçesinde bulunan Cehennem Deresi Kanyonu, Türkiye'nin en etkileyici ve en derin kanyonlarından biridir. Yaklaşık 500 metreye varan derinliği ile dikkat çeken kanyon, olağanüstü kaya oluşumları ve dramatik yamaçlarıyla ziyaretçilerini büyüler. Kanyon boyunca uzanan yürüyüş rotası, trekking, kaya tırmanışı ve doğa yürüyüşü yapmak isteyen maceraperestlere hitap eder. Aynı zamanda doğa fotoğrafçıları için de zengin görsel fırsatlar sunan kanyon, vahşi doğa ve doğal yaşamı gözlemlemek isteyenler için eşsiz bir bölgedir.</p>
+</section>
 
-  Özellikle de gün batımında manzara enfes ama en tepeye çıkmak yerine az altındaki köylerden izlemenizi tavsiye ederiz. Bir dez zirveden bi 15 dakikalık yürüyüşle varılan ufak bir buzul gölü var. <br><br> Burası da Çifteköprü’den geçerek geleceğiniz Arhavi’deki Mençuna Şelalesi. Dik bir patikadan yarım saat yürüyerek ulaşılıyor. Çok sevindik ki şelalenin yanına kadar çıkan araç yolu, piknik alanı gibi burayı katledecek “yatırımlar” yapılmamış. Umarız bu kadar az müdahale ile kalır. Bu 30 dakikalık yürüyüşün sonunda doğal olarak oluşan havuzcukta keyif yapabilirsiniz
-  </p>
+<section class="container-sm mb-5" id="selale">
+  <h2>Mençuna Şelalesi</h2>
+  <p>Artvin'in Arhavi ilçesinde yer alan Mençuna Şelalesi, yaklaşık 90 metre yükseklikten aşağıya dökülerek muhteşem bir doğa manzarası oluşturur. Gür ormanlarla çevrili olan şelale bölgesi, ziyaretçilere huzur veren bir ortam sunar. Şelaleye ulaşmak için yaklaşık 1 kilometrelik orman yürüyüş parkuru bulunur ve yol boyunca eşsiz güzellikte bitki örtüsü ve yerel fauna görülebilir. Şelalenin alt kısmında yaz aylarında serinlemek isteyenler için doğal havuzlar bulunmaktadır. Bu bölge ayrıca kampçılık ve piknik yapmak isteyen ziyaretçiler tarafından da sıkça tercih edilir.</p>
+</section>
 
-  </div>
+<section class="container-sm mb-5" id="sirt">
+  <h2>Sırt Yayla</h2>
+  <p>Artvin'in doğal güzelliklerinden biri olan Sırt Yayla, geleneksel yayla yaşamını yakından deneyimlemek isteyen ziyaretçiler için ideal bir destinasyondur. Rakımı yüksek olan bu yayla, temiz havası ve geniş panoramik manzaralarıyla ziyaretçilere unutulmaz anlar yaşatır. Özellikle yaz aylarında bölgeye göç eden yerli halkın yayla kültürüne tanıklık edebilirsiniz. Sırt Yayla, doğa yürüyüşleri, fotoğrafçılık, kamp ve doğa gözlemi yapmak isteyen ziyaretçiler için mükemmel olanaklar sağlar. Burada bulunan yerel işletmeler ve konaklama imkanları da yayla turizmine katkıda bulunmaktadır.</p>
+</section>
 
 
 <div class="foto-container">
@@ -43,7 +56,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="https://www.kulturportali.gov.tr/turkiye/artvin/gezilecekyer/ortacalar-cifte-kopruler">
+      <a href="#cifte">
       <img src="https://www.kulturportali.gov.tr/repoKulturPortali/large/26022013/7cc87fe4-68e3-4910-b89c-8a5018097f13.jpg?format=jpg&quality=50" class="d-block w-100" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
@@ -52,7 +65,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <a href="https://www.kulturportali.gov.tr/turkiye/artvin/gezilecekyer/cehennem-deresi-kanyonu141129">
+      <a href="#dere">
       <img src="https://www.kulturportali.gov.tr/contents/images/Artvin_Cehennem_deresi_kanyonu%20(4)%20kopya.jpg" class="d-block w-100" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
@@ -61,7 +74,7 @@
       </div>
     </div>
     <div class="carousel-item">
-    <a href="https://kulturportali.gov.tr/turkiye/artvin/gezilecekyer/mencuna-selalesi">
+    <a href="#selale">
       <img src="https://www.bizevdeyokuz.com/wp-content/uploads/mencuna-selalesi-artvin.jpg" class="d-block w-100" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
@@ -70,7 +83,7 @@
       </div>
     </div>
     <div class="carousel-item">
-    <a href="http://www.kackar.org/yaylalar/sirtyaylasi.html">
+    <a href="#sirt">
       <img src="https://www.bizevdeyokuz.com/wp-content/uploads/bulut-denizi-artvin.jpg" class="d-block w-100" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">

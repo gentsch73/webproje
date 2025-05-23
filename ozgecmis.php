@@ -25,6 +25,7 @@
         <li><a href="#education">Eğitim</a></li>
         <li><a href="#experience">Deneyim</a></li>
         <li><a href="#skills">Yetenekler</a></li>
+        <li><a href="#activities">Etkinlikler</a></li>
         <li><a href="#contact">İletişim</a></li>
       </ul>
     </nav>

@@ -32,6 +32,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="sehrim.php">Sehrim</a>
               </li>
+        
               <li class="nav-item">
                 <a class="nav-link" href="ilgi.php">Ilgi Alanlarim</a>
               </li>
