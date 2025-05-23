@@ -115,4 +115,11 @@ p {
     max-block-size: 30rem;
     max-width: 50%;
 }
+/* class="hakkinda-foto img-fluid float-start me-3 mb-3 */
+.hakkinda-foto-w {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    max-block-size: 30rem;
+    max-width: 50%;
+}
 

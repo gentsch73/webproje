@@ -21,27 +21,29 @@
 
   <?php include 'navbar.php'; ?>
 
+  <div class="container-sm">
+    <p> Merhaba! Ben Berkay Genç, 24 yaşındayım ve bilgisayar mühendisliği bölümünde okumaktayım. Bilgisayar ve teknolojiye olan merakım çocukluk yıllarından bu yana devam etmekte. Şu anda bu ilgimi akademik ve kişisel projelerle geliştirerek sürdürmekteyim.</p>
+    <img class="hakkinda-foto img-fluid d-block mx-auto mb-3"  src="https://www.fit.edu/media/program-page-photos/header-graphics/GettyImages-1204739380-1.jpg">
+</div>
 
-  <div class="container-sm">100% wide until medium breakpoint
-
-
-
-
-
-    <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </p>
-    <img class="hakkinda-foto img-fluid float-start me-3 mb-3"  src="https://egamersworld.com/cdn-cgi/image/width=690,quality=75,format=webp/uploads/blog/1696414021417.webp">
-  <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </p>
-
-
-
-
-
-
-
-
+  <div class="container-sm">
+    <p> İlgi alanlarım ve hobilerim arasında bilgisayar oyunları önemli bir yer tutuyor. Özellikle Counter-Strike ve Age of Empires IV gibi oyunları severek oynuyorum. Rekabetçi strateji ve takım çalışmasını gerektiren oyunlar benim için ayrı bir heyecan yaratıyor. Oyun oynamanın yanında oyun tasarımı ve geliştirme konularında da çeşitli denemeler yapmaktayım. </p>
+    <img class="hakkinda-foto img-fluid d-block mx-auto mb-3"  src="https://preview.redd.it/2132w8d0d9771.jpg?width=1080&crop=smart&auto=webp&s=57e083442d9d7edb3768ee23fa2f762aece7f08b">
   </div>
 
-  
+  <div class="container-sm">
+    <p> Film izlemek benim için vazgeçilmez aktivitelerden biri. Özellikle bilim kurgu, dram ve tarih temalı filmler ilgimi çekiyor. İzlediğim filmler üzerine araştırmalar yaparak, senaryo ve yönetmenlik teknikleri hakkında bilgi edinmeyi seviyorum. </p>
+  <img class="hakkinda-foto img-fluid d-block mx-auto mb-3"  src="https://pbs.twimg.com/media/E1lhRl3UYAIgoU4.jpg:large">
+  </div>
+
+  <div class="container-sm">
+    <p> Kodlama benim için hem bir meslek hem de bir tutku. Özellikle C++, Python ve ROS2 gibi teknolojilerle uğraşmayı tercih ediyorum. Çeşitli yazılım projelerinde yer alarak kendimi sürekli geliştirmeye çalışıyorum. Bu alanda yaptığım çalışmalar hakkında daha fazla bilgiye GitHub profilim üzerinden ulaşabilirsiniz. <a href="https://github.com/gentsch73">GIT</a> </p>
+    <img class="hakkinda-foto img-fluid d-block mx-auto mb-3"  src="https://as2.ftcdn.net/jpg/03/55/83/97/1000_F_355839755_UXzivXmrIE6ypvQ2NEyXAKlkYaAvFVXZ.jpg">
+  </div>
+
+  <div class="container-sm">
+    <p> Bana ulaşmak, sorularınızı sormak veya projelerim hakkında daha fazla bilgi edinmek isterseniz, <a href="iletisim.php">Iletisim Formunu</a> kullanabilirsiniz. </p>
+</div>
 
 </body>
 </html>
