@@ -21,7 +21,7 @@
 
   <?php include 'navbar.php'; ?>
 
-    <!-- Mirasımız Bölümü -->
+    
     <section class="container-sm mb-5">
       <h2 class="mb-4">Mirasımız: Artvin Kalesi</h2>
       <div class="card">
@@ -36,7 +36,7 @@
       </div>
     </section>
 
-    <!-- Takımımız Bölümü -->
+    
     <section class="container-sm mb-5">
       <h2 class="mb-4">Takımımız: Artvin Hopaspor</h2>
       <div class="card">

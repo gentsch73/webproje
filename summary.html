@@ -10,7 +10,7 @@
   <main class="container-sm py-4">
     <h1 class="mb-4">Gönderdiğiniz Bilgiler</h1>
 
-    <!-- tablo / kart -->
+    
     <div id="summary" class="card p-3 shadow-sm"></div>
 
     <a href="iletisim.php" class="btn btn-secondary mt-3">Forma Geri Dön</a>
@@ -26,18 +26,17 @@
       }
       const data = JSON.parse(saved);
 
-      /* tablo oluştur */
+      
       let html = '<table class="table table-bordered mb-0"><tbody>';
       Object.entries(data).forEach(([k, v]) => {
-        // dizi ise virgülle birleştir
+        
         const val = Array.isArray(v) ? v.join(', ') : v;
         html += `<tr><th class="w-25 text-capitalize">${k}</th><td>${val}</td></tr>`;
       });
       html += '</tbody></table>';
       wrap.innerHTML = html;
 
-      // İstersen veriyi temizle – bir sonraki ziyaret için
-      // localStorage.removeItem('contactData');
+      
     });
   </script>
 </body>

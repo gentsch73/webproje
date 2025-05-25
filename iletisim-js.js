@@ -1,14 +1,12 @@
-/* iletisim-js.js – Vanilla JavaScript doğrulama + özet sayfasına yönlendirme */
 
-/* Özet sayfasına veri aktar ve yönlendir */
 function showSummary(form) {
   const obj = {},
         fd  = new FormData(form);
 
-  fd.forEach((v, k) => {            // checkbox - radio dizilerini yakala
+  fd.forEach((v, k) => {            
     obj[k] = obj[k] ? [].concat(obj[k], v) : v;
   });
-  if (form.cv && form.cv.files.length) obj.cv = form.cv.files[0].name; // dosya adı
+  if (form.cv && form.cv.files.length) obj.cv = form.cv.files[0].name; 
 
   localStorage.setItem('contactData', JSON.stringify(obj));
   window.location.assign('summary.html');
@@ -17,13 +15,13 @@ function showSummary(form) {
 document.addEventListener('DOMContentLoaded', () => {
   const f   = document.getElementById('contactForm');
   const btn = document.getElementById('validateJS');
-  if (!f || !btn) return;           // form veya buton yoksa çık
+  if (!f || !btn) return;           
 
-  /* RegEx kalıpları */
+  
   const emailR = /^[\w-.]+@([\w-]+\.)+[\w-]{2,}$/;
   const phoneR = /^\d{10,11}$/;
 
-  /* Yardımcılar */
+  
   const clear = () =>
     f.querySelectorAll('.error').forEach(e => (e.textContent = ''));
 
@@ -32,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     el.closest('[class*="col"]').querySelector('.error').textContent = msg;
   };
 
-  /* Buton tıklama – ana doğrulama */
+  
   btn.addEventListener('click', () => {
     clear();
     let ok = true;
@@ -49,6 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!f.cv.files.length)                    { set('cv',      'CV gerekli');           ok = false; }
     if (f.message.value.trim().length < 20)    { set('message', 'Mesaj ≥20 kr.');        ok = false; }
 
-    if (ok) showSummary(f);                    // tüm denetimler geçtiyse özet sayfasına git
+    if (ok) showSummary(f);                    
   });
 });

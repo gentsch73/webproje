@@ -35,12 +35,10 @@
 
 </div>
 
-<!-- === OYUNLAR === -->
 <section class="container-sm mb-5">
   <h2>🎮 Oyun Tutkum</h2>
   <p>Video oyunları, stratejik düşünme, hızlı karar alma ve takım çalışmasını bir araya getiren interaktif deneyimlerdir. Rekabetçi ortamda kendimi test etmeyi ve sürekli gelişmeyi seviyorum. Özellikle çevrim içi çok oyunculu oyunlar, hem sosyal etkileşim sağlıyor hem de reflekslerimi ve problem çözme becerilerimi keskinleştiriyor.</p>
 
-  <!-- CS2 -->
   <div class="card mb-4">
     <div class="row g-0">
       <div class="col-md-4 d-flex align-items-center">
@@ -55,7 +53,6 @@
     </div>
   </div>
 
-  <!-- Age of Empires IV -->
   <div class="card">
     <div class="row g-0">
       <div class="col-md-4 d-flex align-items-center">
@@ -75,7 +72,6 @@
     <h1 class="mb-4 text-center">Favori Konu → Sinema</h1>
     <p class="text-center mb-5">TMDB’de şu an <strong>en popüler</strong> filmler</p>
 
-    <!-- Filmlerin geleceği alan -->
     <div id="movieRow" class="row gy-4"></div>
   </main>
 

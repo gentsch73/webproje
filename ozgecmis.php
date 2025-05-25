@@ -41,7 +41,7 @@
 
  <main class="ozgecmis text-center">
 
-<!-- ======== 1. EĞİTİM ======== -->
+
 <section id="education" class="container-sm" aria-labelledby="title-edu">
   <h2 id="title-edu">Eğitim</h2>
   <article>
@@ -58,7 +58,7 @@
   </article>
 </section>
 
-<!-- ======== 2. DENEYİM ======== -->
+
 <section id="experience" class="container-sm" aria-labelledby="title-exp">
   <h2 id="title-exp">Deneyim</h2>
   <article>
@@ -71,7 +71,7 @@
   </article>
 </section>
 
-<!-- ======== 3. YETENEKLER ======== -->
+
 <section id="skills" class="container-sm" aria-labelledby="title-skill">
   <h2 id="title-skill">Yetenekler</h2>
   <ul class="list-unstyled">
@@ -83,7 +83,7 @@
   </ul>
 </section>
 
-<!-- ======== 4. ETKİNLİKLER ======== -->
+
 <section id="activities" class="container-sm">
   <h2>Etkinlikler</h2>
   <article>
@@ -96,7 +96,7 @@
   </article>
 </section>
 
-<!-- ======== 5. İLETİŞİM ======== -->
+
 <aside id="contact" class="container-sm">
   <h2>İletişim</h2>
   <a href="iletisim.php">Iletisim Formu</a>
@@ -110,7 +110,10 @@
   </main>
 
   <footer>
-    <!-- site alt bilgisi -->
+    <div class="container-sm text-center">
+      <p>&copy; 2025 Berkay Genç</p>
+      <p>Bu sayfa, Berkay Genç'in kişisel özgeçmişini içermektedir.</p>
+    </div>
   </footer>
 
 

@@ -1,6 +1,4 @@
-/* iletisim-angular.js – AngularJS doğrulama ve özet sayfasına yönlendirme */
 
-// Özet sayfasına veri aktarıp yönlendiren ortak yardımcı
 function showSummary(form) {
   const obj = {}, fd = new FormData(form);
   fd.forEach((v, k) => { obj[k] = obj[k] ? [].concat(obj[k], v) : v; });
@@ -9,7 +7,7 @@ function showSummary(form) {
   window.location.assign('summary.html');
 }
 
-// AngularJS uygulaması ve doğrulama denetçisi
+
 angular.module('contactApp', [])
   .controller('FormCtrl', ['$scope', function ($scope) {
     const f = document.getElementById('contactForm');
@@ -34,6 +32,6 @@ angular.module('contactApp', [])
       if (!f.cv.files.length)                     { set('cv', 'CV gerekli');                   ok = false; }
       if (f.message.value.trim().length < 20)     { set('message', 'Mesaj ≥20 kr.');           ok = false; }
 
-      if (ok) showSummary(f); // Doğrulama geçtiyse özet sayfasına git
+      if (ok) showSummary(f); 
     };
 }]);

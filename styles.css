@@ -1,6 +1,6 @@
 .navbar {
-    padding-top: 1.25rem;    /* üstten 20px */
-    padding-bottom: 1.25rem; /* alttan 20px */
+    padding-top: 1.25rem;    
+    padding-bottom: 1.25rem; 
 }
 
 .navbar .nav-link {
@@ -19,13 +19,13 @@
 }
 
 .carousel-item {
-    height: 600px;          /* istediğin sabit yükseklik */
+    height: 600px;          
 }
 
 .carousel-item img {
-    width: 100%;            /* yatayda tam doldur */
-    height: 100%;           /* dikeyde tam doldur */
-    object-fit: cover;      /* taşma varsa kırparak doldur */
+    width: 100%;           
+    height: 100%;           
+    object-fit: cover;      
 }
 
 .img-text1 {
@@ -62,12 +62,12 @@ ul {
 }
 
 .cv-menu{
-    position: fixed;          /* akıştan çık + sabitlen */
-    top: var(--nav-h);         /* navbarın hemen altı */
-    left: 1rem;               /* veya sağa almak istersen right:1rem */
-    z-index: 1050;            /* her şeyin üstünde */
+    position: fixed;          
+    top: var(--nav-h);        
+    left: 1rem;               
+    z-index: 1050;            
 
-    /* görünüm */
+    
     background:#fff;
     border-radius:.5rem;
     box-shadow:0 4px 12px rgba(0,0,0,.12);
@@ -76,8 +76,7 @@ ul {
 }
 
 :root{
-    /* Navbar yüksekliği – eğer nav yüksekliğin farklıysa değiştir */
-    --nav-h: 15rem;           /* ≈ 72 px */
+    --nav-h: 15rem;           
 }
 
 .cv-menu a{
@@ -96,8 +95,7 @@ ul {
     line-height: 1.6;
     padding: 0.75rem;
 
-    /* ← yeni satır */
-    text-align: justify;          /* satırları iki yana yasla */
+    text-align: justify;          
 
     border-style: dotted;
     border-radius: 1rem;
@@ -115,7 +113,7 @@ p {
     max-block-size: 30rem;
     max-width: 50%;
 }
-/* class="hakkinda-foto img-fluid float-start me-3 mb-3 */
+
 .hakkinda-foto-w {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
